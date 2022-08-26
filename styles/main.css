@@ -1,0 +1,129 @@
+body {
+    font-family: 'Signika Negative', sans-serif;
+    background: linear-gradient(#adebeb, #00b8e6, #002266);
+}
+
+/* style classes */
+.card {
+    box-shadow: 7px 7px 6px black;
+    border: 6px #59CD90 solid;
+    border-radius: 15px;
+    background-color: #f79d84;
+}
+
+.header {
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+}
+
+.no_bullets {
+    list-style-type: none;
+}
+
+.bubble {
+    box-shadow: 7px 7px 6px black;
+    border: 3px #f72585 solid;
+    border-radius: 48%;
+    background-color: antiquewhite;
+}
+
+/* site header */
+.site_header {
+    font-size: 5em;
+}
+
+/* fish section */
+.fishies {
+    width: 70%;
+    display: inline-block;
+    margin: 30px;
+}
+
+.fishies__header {
+    font-size: 3em;
+}
+
+.fishies__cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+ .fish {
+    width: 25%;
+    min-width: 250px;
+    margin: 12px; 
+} 
+
+.fish img {
+    width: 40%; 
+    border: 6px #59CD90 solid;
+    border-radius: 15px;
+    margin: 10px;
+    float: left;
+}
+
+.fish__info {
+    float: right;
+}
+
+/* Aside section */
+.tankTips {
+    width: 20%;
+    float: right;
+    background-color: #fee440;
+    margin: 50px 0 50px 35px;
+    border: 8px solid black;
+    padding: 15px;
+}
+
+/* Travel Quotes section */
+.quotes {
+    margin: 50px;
+    padding: 40px;
+}
+
+.quotes__header {
+    font-size: 3em;
+}
+
+.quotes bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    text-align: center;
+    align-items: center;
+    padding: 28px;
+}
+
+/* places section */
+.places {
+    padding: 50px;
+}
+
+.places__header {
+    font-size: 3em;
+}
+
+.places cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.place {
+    width: 30%;
+    min-width: 170px;
+    margin: 25px;
+}
+
+.place__img {
+    width: 100%;
+}
